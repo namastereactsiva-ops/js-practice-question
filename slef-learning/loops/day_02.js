@@ -206,12 +206,146 @@
 // (These are real interview questions)
 
 // Count digits in number n = 45678
+
+// let count = 0;
+
+// for (let num = 45678; num >= 1; num = num / 10) {
+//   count++;
+// }
+
+// console.log(count);
+
 // Find sum of digits of n = 45678
+
+// let num = 456782;
+
+// let sum = 0;
+
+// while (num >= 1) {
+//   let lastDigit = num % 10;
+//   sum += lastDigit;
+//   num = Math.floor(num / 10);
+// }
+
+// console.log(sum);
+
 // Reverse a number n = 12345
+
+// let num = 12345;
+
+// let rev = 0;
+
+// for (let i = num; i >= 1; i = Math.floor(i / 10)) {
+//   let lastDigit = i % 10;
+//   rev = rev * 10 + lastDigit;
+// }
+
+// console.log(rev);
+
 // Check if number n = 121 is palindrome
+
+// let num = 121;
+
+// let rev = 0;
+
+// for (let i = num; i >= 1; i = Math.floor(i / 10)) {
+//   let lastDigit = i % 10;
+//   rev = rev * 10 + lastDigit;
+// }
+
+// if (rev === num) {
+//   console.log("This is a Palindrome");
+// }else{
+//     console.log("This is a not Palindrome");
+// }
+
 // Check if number n = 123 is palindrome
+
+// let num = 123;
+
+// let rev = 0;
+
+// for (let i = num; i >= 1; i = Math.floor(i / 10)) {
+//   let lastDigit = i % 10;
+//   rev = rev * 10 + lastDigit;
+// }
+
+// if (rev === num) {
+//   console.log("This is a Palindrome");
+// } else {
+//   console.log("This is a not Palindrome");
+// }
+
 // Find product of digits of n = 234
+
+// let num = 234;
+
+// let count = 1;
+
+// for (let i = num; i >= 1; i = Math.floor(i / 10)) {
+//   let lastDigit = i % 10;
+//   count *= lastDigit;
+// }
+// console.log(count);
+
 // Find largest digit in number n = 98427
+
+// let num = 3754927;
+
+// let largeNum = 0;
+
+// while (num > 0) {
+//   let lastDigit = num % 10;
+
+//   if (lastDigit > largeNum) {
+//     largeNum = lastDigit;
+//   }
+
+//   num = Math.floor(num / 10);
+// }
+
+// console.log(largeNum);
+
 // Find smallest digit in number n = 98427
+
+// let num = 984271;
+
+// let largeNum = 9;
+
+// while (num > 0) {
+//   let lastDigit = num % 10;
+
+//   if (lastDigit < largeNum) {
+//     largeNum = lastDigit;
+//   }
+
+//   num = Math.floor(num / 10);
+// }
+
+// console.log(largeNum);
+
 // Count how many zeros in number n = 10203040
+
+// let num = 10203040;
+
+// let count = 0;
+
+// for (let i = num; i >= 1; i = Math.floor(i / 10)) {
+//   let digit = i % 10;
+
+//   if (digit === 0) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
+
 // Print each digit of number n = 5678 separately
+
+// let num = 5678;
+
+// let str = String(num);
+
+// for (let i = 0; i <= str.length - 1; i++) {
+//   console.log(str[i]);
+// }
