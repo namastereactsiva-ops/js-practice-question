@@ -392,29 +392,75 @@
 
 // Print all prime numbers between 1 to 50
 
-for (let i = 1; i <= 50; i++) {
-  if (i <= 1) {
-    // primeNum = false;
-    continue;
-  }
-  let primeNum = true;
+// for (let i = 1; i <= 50; i++) {
+//   if (i <= 1) {
+//     continue;
+//   }
+//   let primeNum = true;
 
-  for (let j = 2; j <= Math.sqrt(i); j++) {
-    if (i % j === 0) {
-      primeNum = false;
-      break;
-    }
-  }
+//   for (let j = 2; j <= Math.sqrt(i); j++) {
+//     if (i % j === 0) {
+//       primeNum = false;
+//       break;
+//     }
+//   }
 
-  if (primeNum) {
-    console.log(i);
-  }
-}
+//   if (primeNum) {
+//     console.log(i);
+//   }
+// }
 
 // Print all numbers between 1 to 100 that have exactly 2 factors (prime logic)
+
+// for (let num = 1; num <= 100; num++) {
+//   if (num <= 1) {
+//     continue;
+//   }
+
+//   let primeNum = true;
+
+//   for (let i = 2; i <= Math.sqrt(num); i++) {
+//
+//     if (num % i === 0) {
+//       primeNum = false;
+//     }
+//   }
+
+//   if (primeNum) {
+//     console.log(num);
+//   }
+// }
+
 // Print all perfect squares between 1 to 100
+
 // Print all numbers between 1 to 100 divisible by 3 but not divisible by 5
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     continue;
+//   } else if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+
 // Find GCD of a = 12, b = 18 (use loop)
+
+// let a = 12;
+// let b = 18;
+
+// let largeNum = 0;
+
+// for (let i = 1; i <= Math.min(a, b); i++) {
+//   if (a % i === 0 && b % i === 0) {
+//     if (i > largeNum) {
+//       largeNum = i;
+//     }
+//   }
+// }
+
+// console.log(largeNum);
+
 // Find LCM of a = 12, b = 18 (use loop)
+
 // Print Fibonacci series first 10 terms
 // Find sum of Fibonacci series first 10 terms
