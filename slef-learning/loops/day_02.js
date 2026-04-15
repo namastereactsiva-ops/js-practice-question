@@ -349,3 +349,72 @@
 // for (let i = 0; i <= str.length - 1; i++) {
 //   console.log(str[i]);
 // }
+
+// SECTION C: Prime + Advanced Logic (21–30)
+
+// Check if n = 7 is prime
+
+// let num = 7;
+
+// let primeNum = true;
+
+// if (num < 1) {
+//   primeNum = false;
+// }
+
+// for (let i = 2; i <= Math.sqrt(num); i++) {
+//   if (num % i === 0) {
+//     primeNum = false;
+//   }
+// }
+
+// console.log(primeNum ? "this is prime" : "Not a prime");
+
+// Check if n = 10 is prime
+
+// let num = 7;
+
+// let primeNum = true;
+
+// console.log(num % 2);
+
+// if (num < 1) {
+//   primeNum = false;
+// }
+
+// for (let i = 2; i <= Math.sqrt(num); i++) {
+//   if (num % i === 0) {
+//     primeNum = false;
+//   }
+// }
+
+// console.log(primeNum ? "this is prime" : "Not a prime");
+
+// Print all prime numbers between 1 to 50
+
+for (let i = 1; i <= 50; i++) {
+  if (i <= 1) {
+    // primeNum = false;
+    continue;
+  }
+  let primeNum = true;
+
+  for (let j = 2; j <= Math.sqrt(i); j++) {
+    if (i % j === 0) {
+      primeNum = false;
+      break;
+    }
+  }
+
+  if (primeNum) {
+    console.log(i);
+  }
+}
+
+// Print all numbers between 1 to 100 that have exactly 2 factors (prime logic)
+// Print all perfect squares between 1 to 100
+// Print all numbers between 1 to 100 divisible by 3 but not divisible by 5
+// Find GCD of a = 12, b = 18 (use loop)
+// Find LCM of a = 12, b = 18 (use loop)
+// Print Fibonacci series first 10 terms
+// Find sum of Fibonacci series first 10 terms
