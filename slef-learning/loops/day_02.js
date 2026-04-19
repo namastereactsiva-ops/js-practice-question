@@ -376,8 +376,6 @@
 
 // let primeNum = true;
 
-// console.log(num % 2);
-
 // if (num < 1) {
 //   primeNum = false;
 // }
@@ -462,5 +460,131 @@
 
 // Find LCM of a = 12, b = 18 (use loop)
 
+// let a = 12;
+
+// let b = 18;
+
+// let lcm = Math.max(a, b);
+
+// while (true) {
+//   if (lcm % a === 0 && lcm % b === 0) {
+//     console.log(lcm);
+//     break;
+//   }
+
+//   lcm++;
+// }
+
 // Print Fibonacci series first 10 terms
+
+// let a = 0;
+
+// let b = 1;
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(a);
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
+
 // Find sum of Fibonacci series first 10 terms
+
+// let a = 0;
+
+// let b = 1;
+
+// let sum = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   sum += a;
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
+
+// console.log(sum);
+
+//Q11) Count digits
+
+// let n = 45678;
+// let count = 0;
+
+// while (n > 1) {
+//   count++;
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(count);
+
+// // Q12) Sum of digits
+
+// let n = 45678;
+
+// let sum = 0;
+
+// while (n > 1) {
+//   let lastDigit = n % 10;
+//   sum += lastDigit;
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(sum);
+
+// Q17) Largest digit
+
+// let LargeNum = 1;
+
+// for (let num = 98427; num > 1; num = Math.floor(num / 10)) {
+//   let lastDigit = num % 10;
+//   if (lastDigit > LargeNum) {
+//     LargeNum = lastDigit;
+//   }
+// }
+
+// console.log(LargeNum);
+
+// // Q18) Smallest digit
+
+// let smallNum = 9;
+
+// for (let num = 98427; num > 1; num = Math.floor(num / 10)) {
+//   let lastDigit = num % 10;
+//   if (lastDigit < smallNum) {
+//     smallNum = lastDigit;
+//   }
+// }
+
+// console.log(smallNum);
+
+// Q22) Prime check
+
+// let n = 10;
+
+// let primeNum = true;
+
+// left side erkka number right side number aa vita perusanu keeka  " < " ==> 10 < 1 ===> false
+
+// left side erkka number right side number aa vita sinnamanu keeka " > " ==> 10 > 4 ===> true
+
+// if (n <= 1) {
+//   primeNum = false;
+// }
+
+// for (let i = 2; i <= Math.sqrt(n); i++) {
+//   if (n % i === 0) {
+//     primeNum = false;
+//   }
+// }
+
+// if (primeNum) {
+//   console.log("this is a prime num");
+// } else {
+//   console.log("this is a Not prime num");
+// }
+
+//Q25) Perfect squares
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i * i);
+// }
